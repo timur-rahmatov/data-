@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgb(99, 99, 111),
+        rgba(0, 255, 255, 0.819)
+    );
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.brt {
+    height: 85vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.portion {
+    box-shadow: 0px 0px 20px rgb(135, 135, 206);
+    color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(135, 135, 206);
+}
+
+.portion h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.portion  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.portion  input {
+    width: 400px;
+    border: none;
+    height: 40px;
+    border-radius: 13px;
+    padding-left: 1rem;
+}
+
+.portion button {
+    width: 400px;
+    border: none;
+    height: 40px;
+    border-radius: 13px;
+    background-color:rgb(63, 167, 167);
+    color: #fff;
+}
+
+.portion  button:hover {
+    background-color:rgba(54, 89, 89, 0.84) ;
+    transition: 0.3s;
+}
+
+.portion2 {
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.473);
+    width: 50%;
+    background-color: #fff;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    width: 300px;
+    height: 90px;
+    background-color: #333;
+    position: fixed;
+    top: 200px;
+    transform: translateX(100%);
+    transition: 0.4s;
+    right: 0;
+    overflow: hidden;
+}
+.hello {
+    display: flex;
+    justify-content: center;
+}
+.user i {
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.go {
+    transition: 0.4s;
+    transform: translateX(0);
+}
+
+.user h3 {
+    color: red;
+    font-weight: 400;
+}
